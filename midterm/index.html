@@ -38,7 +38,7 @@
                 this.el.addEventListener('touchstart', function (e) {
 		
                     let dragon = document.querySelector('#dragon-model')
-		    dragon.setAttribute('animation-mixer', "clip: Scene; loop: twice;");
+		    dragon.setAttribute('animation-mixer', "clip: take 001; loop: twice;");
                     this.audio.play();
 			console.log(e)
                 }.bind(this));
